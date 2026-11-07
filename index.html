@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="北欧と子どもと、日々のこと。lillaの暮らしブログ。">
+  <title>今日も、暮らす。｜lilla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">今日も、暮らす。<span>｜lilla</span></a>
+    <button class="menu-toggle" aria-label="メニューを開く" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#contents">Contents</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">NORDIC · BABY · EVERYDAY LIFE</p>
+        <h1>今日も、<br>暮らす。</h1>
+        <p>北欧と子どもと、日々のこと。</p>
+        <a class="button" href="#contents">暮らしをのぞく</a>
+      </div>
+      <div class="hero-photo photo-frame"><img src="images/hero.jpeg" alt="花とガラスの花器、木のテーブルに差し込む光"></div>
+    </section>
+
+    <section id="about" class="section about reveal">
+      <p class="eyebrow">ABOUT LILLA</p>
+      <h2>小さな楽しみを、<br>いつもの暮らしに。</h2>
+      <p class="lead">
+        北欧の器やインテリア、子どもとの毎日。<br>
+        特別な日じゃなくても、暮らしの中には小さな「好き」がある。
+        そんな日々を、写真と言葉で残していく場所です。
+      </p>
+    </section>
+
+    <section id="contents" class="section reveal">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CONTENTS</p>
+          <h2>暮らしの記録</h2>
+        </div>
+        <p>気になる # から、のぞいてみて。</p>
+      </div>
+
+      <div class="tags">
+        <button class="tag active" data-tag="all">#すべて</button>
+        <button class="tag" data-tag="育児日記">#育児日記</button>
+        <button class="tag" data-tag="調べてみた">#調べてみた</button>
+        <button class="tag" data-tag="marimekko">#marimekko</button>
+        <button class="tag" data-tag="iittala">#iittala</button>
+      </div>
+
+      <div class="posts" id="postList">
+        <article class="post-card" data-tags="育児日記">
+          <div class="post-photo photo-frame"><img src="images/plant.jpeg" alt="窓辺のグリーン"></div>
+          <div class="post-body">
+            <p class="post-meta">2026.08.28 · #育児日記</p>
+            <h3>今日も、小さな成長を。</h3>
+            <p>赤ちゃんとの何気ない一日を、ゆっくり記録していく。</p>
+            <a href="#" class="read-more">続きを読む →</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-tags="調べてみた">
+          <div class="post-photo photo-frame"><img src="images/coffee.jpeg" alt="青い器とコーヒーのおやつ時間"></div>
+          <div class="post-body">
+            <p class="post-meta">2026.08.20 · #調べてみた</p>
+            <h3>暮らしの「これ、なんだろう？」</h3>
+            <p>気になったことを調べて、自分なりにまとめてみる。</p>
+            <a href="#" class="read-more">続きを読む →</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-tags="marimekko">
+          <div class="post-photo photo-frame"><img src="images/marimekko-pattern.png" alt="マリメッコを思わせる花柄のテキスタイル"></div>
+          <div class="post-body">
+            <p class="post-meta">2026.08.12 · #marimekko</p>
+            <h3>好きなものを、暮らしの真ん中に。</h3>
+            <p>マリメッコと過ごす、ちょっと嬉しい日常。</p>
+            <a href="#" class="read-more">続きを読む →</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-tags="iittala">
+          <div class="post-photo photo-frame"><img src="images/coffee.jpeg" alt="お気に入りの器で楽しむコーヒー時間"></div>
+          <div class="post-body">
+            <p class="post-meta">2026.08.05 · #iittala</p>
+            <h3>お気に入りの器で、カフェ時間。</h3>
+            <p>iittalaの器と、家で楽しむ小さなひと休み。</p>
+            <a href="#" class="read-more">続きを読む →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section reveal">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">GALLERY</p>
+          <h2>日々の写真</h2>
+        </div>
+        <p>写真をクリックすると大きく見られます。</p>
+      </div>
+      <div class="gallery">
+        <button class="gallery-item photo-frame" data-image="images/hero.jpeg" aria-label="写真を拡大"><img src="images/hero.jpeg" alt="花と光のある暮らし"></button>
+        <button class="gallery-item photo-frame" data-image="images/plant.jpeg" aria-label="写真を拡大"><img src="images/plant.jpeg" alt="窓辺のグリーン"></button>
+        <button class="gallery-item photo-frame" data-image="images/coffee.jpeg" aria-label="写真を拡大"><img src="images/coffee.jpeg" alt="青い器とコーヒー"></button>
+        <button class="gallery-item photo-frame" data-image="images/blinds.jpeg" aria-label="写真を拡大"><img src="images/blinds.jpeg" alt="窓とグリーンの影"></button>
+      </div>
+    </section>
+
+    <section id="contact" class="section links reveal">
+      <p class="eyebrow">FOLLOW</p>
+      <h2>lillaの日々を、もう少し。</h2>
+      <div class="social-links">
+        <a class="social-button" href="#" target="_blank" rel="noopener">Instagram ↗</a>
+        <a class="social-button" href="#" target="_blank" rel="noopener">ROOM ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="pattern-strip" aria-hidden="true"></div>
+
+  <footer>
+    <p>今日も、暮らす。｜lilla</p>
+    <small>© 2026 lilla</small>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="閉じる">×</button>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
